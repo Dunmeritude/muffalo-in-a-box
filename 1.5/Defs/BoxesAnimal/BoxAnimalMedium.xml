@@ -4,7 +4,7 @@
     <ThingDef ParentName="FilledAnimalCategory">
         <defName>StasisBox_EmptyAnimalMedium</defName>
         <label>medium stasis box</label>
-        <description>A legally distinct non-spheroid stasis box ready to hold a medium animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
+        <description>A legally distinct non-spheroid stasis box containing a medium animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
         <graphicData>
           <texPath>AnimalBoxes/MediumAnimalBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>

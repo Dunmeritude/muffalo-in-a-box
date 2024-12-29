@@ -3,8 +3,8 @@
 
     <ThingDef ParentName="FilledAnimalCategory">
         <defName>StasisBox_EmptyAnimalUltraLarge</defName>
-        <label>big stasis box</label>
-        <description>A legally distinct non-spheroid stasis box ready to hold a very large animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
+        <label>ultra large stasis box</label>
+        <description>A legally distinct non-spheroid stasis box containing a very large animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
         <graphicData>
           <texPath>AnimalBoxes/UltraLargeAnimalBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>

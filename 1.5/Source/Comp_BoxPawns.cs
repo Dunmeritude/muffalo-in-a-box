@@ -40,8 +40,9 @@ namespace StasisBox
 								Faction.OfPlayer,
 								allowDead: false,
 								allowDowned: false,
-								developmentalStages: DevelopmentalStage.Adult,
-								fixedGender: Props.genderOfPawn);
+								fixedGender: Props.genderOfPawn,
+								fixedBiologicalAge: 1f,
+								fixedChronologicalAge: 1f);
 							Pawn pawn = PawnGenerator.GeneratePawn(request);
 							GenSpawn.Spawn(pawn, parent.Position, parent.Map);
 						}
@@ -94,8 +95,7 @@ namespace StasisBox
 							{
 								Job job = JobMaker.MakeJob(DefOfs.StasisBox_BoxPawn, pawnToPack, parent);
 								job.WithCount(2);
-								amazonWorker.jobs.jobQueue.EnqueueFirst(job);
-								amazonWorker.jobs.EndCurrentJob(JobCondition.InterruptForced);
+								amazonWorker.jobs.TryTakeOrderedJob(job);
 							}
 						}, null);
 					},

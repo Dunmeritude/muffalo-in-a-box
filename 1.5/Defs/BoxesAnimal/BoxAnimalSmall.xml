@@ -4,7 +4,7 @@
     <ThingDef ParentName="FilledAnimalCategory">
         <defName>StasisBox_EmptyAnimalSmall</defName>
         <label>small stasis box</label>
-        <description>A legally distinct non-spheroid stasis box ready to hold a small animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
+        <description>A legally distinct non-spheroid stasis box containing a small animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
         <graphicData>
           <texPath>AnimalBoxes/SmallAnimalBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>

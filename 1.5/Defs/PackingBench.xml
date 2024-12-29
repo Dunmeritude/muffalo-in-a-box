@@ -4,7 +4,7 @@
     <ThingDef ParentName="BenchBase">
         <defName>StasisBox_PackingBench</defName>
         <label>packing bench</label>
-        <description>A workbench for stasis box production and the flat packing of mechanoids, for the colony of a rimworld with a forward thinking mind. Here you can produce the stasis boxes that enable long range transport and trade of animals, keep them alive in storage when feeding them is non-viable, or weather conditions make keeping animals outside non-viable in the moment. They can't be sold to trade ships, visiting caravans, or caravans on the road, but can be traded directly when carried to a neighboring settlement. Making flatpack boxes for your mechanoids is a safe way to store them in your warehouse when bandwidth or energy are in short supply.</description>
+        <description>A workbench for stasis box production and the flat packing of mechanoids, for the colony of a rimworld with a forward thinking mind. Here you can produce the stasis boxes that enable long rang transport and trade of animals, or keep them alive in storage when feeding them is non-viable, or weather conditions make keeping animals outside non-viable in the moment. And making flatpack boxes for your mechanoids can keep them in your warehouse when energy or bandwith are in short supply.</description>
         <thingClass>Building_WorkTable</thingClass>
         <altitudeLayer>Building</altitudeLayer>
         <passability>PassThroughOnly</passability>
