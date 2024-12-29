@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory">
+        <defName>StasisBox_EmptyMechLight</defName>
+        <label>light flatpack package</label>
+        <description>An empty light mechanoid crate ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+        <graphicData>
+          <texPath>MechanoidBoxes/LightMechanoidBoxes/Empty</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>450</MarketValue>
+        </statBases>
+        <costList>
+            <Chemfuel>10</Chemfuel>
+            <Steel>20</Steel>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>StasisBox_PackingBench</li>
+            </recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <targetingParams>
+                    <canTargetHumans>false</canTargetHumans>
+                    <canTargetMechs>true</canTargetMechs>
+                    <canTargetAnimals>false</canTargetAnimals>
+                    <canTargetBuildings>false</canTargetBuildings>
+                    <canTargetMutants>false</canTargetMutants>
+                    <canTargetBloodfeeders>false</canTargetBloodfeeders>
+                </targetingParams>
+                <filledBoxMapping>
+                    <!-- Mech_Militor -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Militor</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Militor</value>
+                    </li>
+                    <!-- Mech_WarUrchin -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_WarUrchin</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_WarUrchin</value>
+                    </li>
+                    <!-- Mech_Agrihand -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Agrihand</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Agrihand</value>
+                    </li>
+                    <!-- Mech_Cleansweeper -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Cleansweeper</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Cleansweeper</value>
+                    </li>
+                    <!-- Mech_Constructoid -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Constructoid</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Constructoid</value>
+                    </li>
+                    <!-- Mech_Fabricor -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Fabricor</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Fabricor</value>
+                    </li>
+                    <!-- Mech_Lifter -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Lifter</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Lifter</value>
+                    </li>
+                    <!-- Mech_Paramedic -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Paramedic</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Paramedic</value>
+                    </li>
+                </filledBoxMapping>
+            </li>        
+        </comps>
+    </ThingDef>
+
+</Defs>

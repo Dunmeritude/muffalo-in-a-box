@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory" Name="FilledLightMechCategory" Abstract="true">
+      <description>A de-activated and flat-packed light mechanoid ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+      <graphicData>
+          <texPath>MechanoidBoxes/LightMechanoidBoxes/Filled</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+      </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Militor</defName>
+        <label>light stasis box (militor)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Militor</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_WarUrchin</defName>
+        <label>light stasis box (war urchin)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_WarUrchin</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Agrihand</defName>
+        <label>light stasis box (Agrihand)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Agrihand</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Cleansweeper</defName>
+        <label>light stasis box (Cleansweeper)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Cleansweeper</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Constructoid</defName>
+        <label>light stasis box (Constructoid)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Constructoid</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Fabricor</defName>
+        <label>light stasis box (Fabricor)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Fabricor</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Lifter</defName>
+        <label>light stasis box (Lifter)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Lifter</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="FilledLightMechCategory">
+        <defName>StasisBox_Paramedic</defName>
+        <label>light stasis box (Paramedic)</label>
+        <statBases>
+            <MarketValue>800</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Paramedic</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

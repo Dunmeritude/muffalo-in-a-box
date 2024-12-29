@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory">
+        <defName>StasisBox_EmptyMechHeavy</defName>
+        <label>heavy flatpack package</label>
+        <description>An empty heavy mechanoid crate ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+        <graphicData>
+          <texPath>MechanoidBoxes/HeavyMechanoidBoxes/Empty</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <costList>
+            <Chemfuel>40</Chemfuel>
+            <Steel>80</Steel>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>StasisBox_PackingBench</li>
+            </recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <targetingParams>
+                    <canTargetHumans>false</canTargetHumans>
+                    <canTargetMechs>true</canTargetMechs>
+                    <canTargetAnimals>false</canTargetAnimals>
+                    <canTargetBuildings>false</canTargetBuildings>
+                    <canTargetMutants>false</canTargetMutants>
+                    <canTargetBloodfeeders>false</canTargetBloodfeeders>
+                </targetingParams>
+                <filledBoxMapping>
+                    <!-- Mech_CentipedeBlaster -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_CentipedeBlaster</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_CentipedeBlaster</value>
+                    </li>
+                    <!-- Mech_CentipedeGunner -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_CentipedeGunner</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_CentipedeGunner</value>
+                    </li>
+                    <!-- Mech_CentipedeBurner -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_CentipedeBurner</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_CentipedeBurner</value>
+                    </li>
+                    <!-- Mech_Tunneler -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Tunneler</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Tunneler</value>
+                    </li>
+                </filledBoxMapping>
+            </li>        
+        </comps>
+    </ThingDef>
+
+</Defs>

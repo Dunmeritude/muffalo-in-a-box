@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase" Name="StatisBoxBase" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <techLevel>Industrial</techLevel>
+        <allowedArchonexusCount>0</allowedArchonexusCount>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>15</stackLimit>
+        <tradeNeverStack>true</tradeNeverStack>
+        <useHitPoints>true</useHitPoints>
+        <thingCategories>
+          <li>StasisBox_StasisBoxes</li>
+        </thingCategories>
+        <statBases>
+          <Mass>1.5</Mass>
+          <MaxHitPoints>200</MaxHitPoints>
+          <Beauty>1</Beauty>
+        </statBases>
+        <comps Inherit="false">
+          <li Class="CompProperties_Forbiddable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="StatisBoxBase" Name="FilledAnimalCategory" Abstract="true">
+      <thingCategories Inherit="false">
+        <li>StasisBox_FilledAnimalBoxes</li>
+      </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="StatisBoxBase" Name="FilledMechanoidCategory" Abstract="true">
+      <thingCategories Inherit="false">
+        <li>StasisBox_FilledMechanoidBoxes</li>
+      </thingCategories>
+    </ThingDef>
+
+    <ThingCategoryDef>
+      <defName>StasisBox_StasisBoxes</defName>
+      <label>stasis boxes</label>
+      <parent>Items</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>StasisBox_FilledAnimalBoxes</defName>
+      <label>filled animal boxes</label>
+      <parent>StasisBox_StasisBoxes</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>StasisBox_FilledMechanoidBoxes</defName>
+      <label>filled mechanoid boxes</label>
+      <parent>StasisBox_StasisBoxes</parent>
+    </ThingCategoryDef>
+
+
+</Defs>

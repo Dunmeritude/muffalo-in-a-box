@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="StorageShelfBase">
+        <defName>StasisBox_AnimalBoxShelf</defName>
+        <label>animal stasis box shelf</label>
+        <description>Storage shelves for animal stasis boxes, they keep the animals alive and well while you prepare to trade or open them at a later time. If the storage shelf becomes depowered, the stasis boxes have a limited time before their kibble reserves run out, and the box will perform an emergency opening sequence; freeing the animal. These boxes are often used by societies with spacer level tech, and are an easy compact way to store animals for trade across planets and solar systems, without constant feeding and maintenance beyond simply powering the stasis field. Without these boxes and storage shelves, trading animals becomes far more costly than its worth in profit for most trade ships.</description>
+        <graphicData>
+          <texPath>Shelfs/Shelf_BoxAnimal</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(2,1)</drawSize>
+          <shadowData Inherit="false" />
+        </graphicData>
+        <staticSunShadowHeight>0.0</staticSunShadowHeight>
+        <costList>
+            <Steel>18</Steel>
+        </costList>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints> 
+          <Mass>8</Mass>
+          <WorkToBuild>500</WorkToBuild>
+          <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+        </statBases>
+        <size>(2,1)</size>
+        <designationHotKey>Misc12</designationHotKey>
+        <building>
+            <fixedStorageSettings Inherit="false">
+                <filter>
+                    <categories>
+                        <li>StasisBox_FilledAnimalBoxes</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+        </building>
+        <researchPrerequisites>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+
+    <ThingDef ParentName="StorageShelfBase">
+        <defName>StasisBox_MechBoxShelf</defName>
+        <label>mechanoid flat pack shelf</label>
+        <description>The storage shelf for flat packed mechanoids, it is an easy way to keep your stored mechanoids organized for when bandwidth, energy, or waste pack storage is in short supply. They require no energy to maintain, being simple metal shelves designed to hold the heavy weight of mechanoids for the long term. These shelves are often used by societies with industrial level tech, and the ruins of old warehouses full of units waiting to be re-activated are a gold mine for treasure hunting rimworlders. These shelves can also be found in the cargo bays of trade ships, offering a way to easily trade mechanoids between planets while negating the energy cost, or the need to have a mechinator on hand to manage the machines.</description>
+        <graphicData>
+          <texPath>Shelfs/Shelf_BoxMech</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(2,1)</drawSize>
+          <shadowData Inherit="false" />
+        </graphicData>
+        <staticSunShadowHeight>0.0</staticSunShadowHeight>
+        <costList>
+            <Steel>18</Steel>
+        </costList>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints> 
+          <Mass>8</Mass>
+          <WorkToBuild>500</WorkToBuild>
+          <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+        </statBases>
+        <size>(2,1)</size>
+        <designationHotKey>Misc12</designationHotKey>
+        <building>
+            <fixedStorageSettings Inherit="false">
+                <filter>
+                    <categories>
+                        <li>StasisBox_FilledMechanoidBoxes</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+        </building>
+        <researchPrerequisites>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+</Defs>

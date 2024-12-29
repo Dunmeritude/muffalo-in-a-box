@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory" Name="FilledMediumMechCategory" Abstract="true">
+      <description>A de-activated and flat-packed medium mechanoid ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+      <graphicData>
+          <texPath>MechanoidBoxes/MediumMechanoidBoxes/Filled</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+      </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Scyther</defName>
+        <label>medium stasis box (Scyther)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Scyther</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    
+
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Lancer</defName>
+        <label>medium stasis box (Lancer)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Lancer</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Scorcher</defName>
+        <label>medium stasis box (Scorcher)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Scorcher</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Legionary</defName>
+        <label>medium stasis box (Legionary)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Legionary</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Pikeman</defName>
+        <label>medium stasis box (Pikeman)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Pikeman</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledMediumMechCategory">
+        <defName>StasisBox_Tesseron</defName>
+        <label>medium stasis box (Tesseron)</label>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Tesseron</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

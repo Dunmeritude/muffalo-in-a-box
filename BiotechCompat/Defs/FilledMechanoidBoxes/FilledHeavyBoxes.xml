@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory" Name="FilledHeavyMechCategory" Abstract="true">
+      <description>A de-activated and flat-packed heavy mechanoid ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+      <graphicData>
+          <texPath>MechanoidBoxes/HeavyMechanoidBoxes/Filled</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+      </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledHeavyMechCategory">
+        <defName>StasisBox_CentipedeBlaster</defName>
+        <label>heavy stasis box (Centipede Blaster)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_CentipedeBlaster</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    
+
+    <ThingDef ParentName="FilledHeavyMechCategory">
+        <defName>StasisBox_CentipedeGunner</defName>
+        <label>heavy stasis box (Centipede Gunner)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_CentipedeGunner</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="FilledHeavyMechCategory">
+        <defName>StasisBox_CentipedeBurner</defName>
+        <label>heavy stasis box (Centipede Burner)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_CentipedeBurner</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledHeavyMechCategory">
+        <defName>StasisBox_Tunneler</defName>
+        <label>heavy stasis box (Tunneler)</label>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Tunneler</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

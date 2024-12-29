@@ -1,0 +1,9 @@
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Assemblies\StasisBox.dll
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Assemblies\StasisBox.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.GeneratedMSBuildEditorConfig.editorconfig
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.AssemblyInfoInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.AssemblyInfo.cs
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.dll
+D:\Steam\steamapps\common\RimWorld\Mods\AmazonSimulator\1.5\Source\obj\Debug\net48\StasisBox.pdb

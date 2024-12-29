@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <JobDef>
+        <defName>StasisBox_BoxPawn</defName>
+        <driverClass>StasisBox.JobDriver_BoxPawn</driverClass>
+        <reportString>putting targetA inside a stasis box.</reportString>
+    </JobDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Muffalo-in-a-Box</name>
+
+	<author>Tired Guy</author>
+
+	<packageId>tiredguy.muffaloinabox</packageId> <!-- a unique identifier for the mod. Special characters are not allowed, at least one dot is required. This is what gets saved in a player's mod list, and having two identical IDs leads to the mod manager becoming incapable of loading the correct mod. The game internally stores these IDs using lower case characters only -->
+
+	<description>Need a way to easily store mechanoids and animals when they aren't needed? Want to trade them over multiplayer mods to other players? This is the mod for you! Code was done by "Thekiborg" and artwork was done by "BlackMarket420". They were both commissioned for their work and I highly recommend them both! I'll update the description if more details are requested. I primarily had this mod made for all the cool gamer people using Phinix, but its not required to use this mod. Store your boomrats and militors for a rainy, or NOT rainy day!</description>
+
+	<supportedVersions>
+		<li>1.5</li> <!-- Supported versions. Place rimworld versions in separate li nodes here -->
+	</supportedVersions>
+
+	<!-- More information is available here: https://rimworldwiki.com/wiki/Modding_Tutorials/About.xml -->
+</ModMetaData>

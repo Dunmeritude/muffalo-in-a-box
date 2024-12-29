@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory">
+        <defName>StasisBox_EmptyMechUltraheavy</defName>
+        <label>ultraheavy flatpack package</label>
+        <description>An empty ultra-heavy mechanoid crate ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+        <graphicData>
+          <texPath>MechanoidBoxes/UltraHeavyMechanoidBoxes/Empty</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>2400</MarketValue>
+        </statBases>
+        <costList>
+            <Chemfuel>80</Chemfuel>
+            <Steel>160</Steel>
+            <Plasteel>40</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Gold>100</Gold>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>StasisBox_PackingBench</li>
+            </recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <targetingParams>
+                    <canTargetHumans>false</canTargetHumans>
+                    <canTargetMechs>true</canTargetMechs>
+                    <canTargetAnimals>false</canTargetAnimals>
+                    <canTargetBuildings>false</canTargetBuildings>
+                    <canTargetMutants>false</canTargetMutants>
+                    <canTargetBloodfeeders>false</canTargetBloodfeeders>
+                </targetingParams>
+                <filledBoxMapping>
+                    <!-- Mech_Centurion -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Centurion</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Centurion</value>
+                    </li>
+                    <!-- Mech_Diabolus -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Diabolus</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Diabolus</value>
+                    </li>
+                    <!-- Mech_Warqueen -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Warqueen</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Warqueen</value>
+                    </li>
+                    <!-- Mech_Apocriton -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Apocriton</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Apocriton</value>
+                    </li>
+                </filledBoxMapping>
+            </li>        
+        </comps>
+    </ThingDef>
+
+</Defs>

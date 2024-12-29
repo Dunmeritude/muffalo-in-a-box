@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory">
+        <defName>StasisBox_EmptyMechMedium</defName>
+        <label>medium flatpack package</label>
+        <description>An empty medium mechanoid crate ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+        <graphicData>
+          <texPath>MechanoidBoxes/MediumMechanoidBoxes/Empty</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>900</MarketValue>
+        </statBases>
+        <costList>
+            <Chemfuel>20</Chemfuel>
+            <Steel>20</Steel>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>StasisBox_PackingBench</li>
+            </recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <targetingParams>
+                    <canTargetHumans>false</canTargetHumans>
+                    <canTargetMechs>true</canTargetMechs>
+                    <canTargetAnimals>false</canTargetAnimals>
+                    <canTargetBuildings>false</canTargetBuildings>
+                    <canTargetMutants>false</canTargetMutants>
+                    <canTargetBloodfeeders>false</canTargetBloodfeeders>
+                </targetingParams>
+                <filledBoxMapping>
+                    <!-- Mech_Scyther -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Scyther</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Scyther</value>
+                    </li>
+                    <!-- Mech_Lancer -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Lancer</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Lancer</value>
+                    </li>
+                    <!-- Mech_Scorcher -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Scorcher</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Scorcher</value>
+                    </li>
+                    <!-- Mech_Tesseron -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Tesseron</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Tesseron</value>
+                    </li>
+                    <!-- Mech_Legionary -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Legionary</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Legionary</value>
+                    </li>
+                    <!-- Mech_Pikeman -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Mech_Pikeman</pawnKindDef>
+                            <genderOfPawn>None</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Pikeman</value>
+                    </li>
+                </filledBoxMapping>
+            </li>        
+        </comps>
+    </ThingDef>
+
+</Defs>

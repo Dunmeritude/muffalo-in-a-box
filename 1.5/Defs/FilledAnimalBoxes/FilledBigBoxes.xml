@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledAnimalCategory" Name="FilledLargeAnimalCategory" Abstract="true">
+    <description>A legally distinct non-spheroid stasis box containing a large animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
+      <graphicData>
+          <texPath>AnimalBoxes/BigAnimalBoxes/Filled</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+      </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bison_Female</defName>
+        <label>big stasis box (Bison)</label>
+        <statBases>
+            <MarketValue>350</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bison</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bison_Male</defName>
+        <label>big stasis box (Bison)</label>
+        <statBases>
+            <MarketValue>350</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bison</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Boomalope_Female</defName>
+        <label>big stasis box (Boomalope)</label>
+        <statBases>
+            <MarketValue>350</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Boomalope</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Boomalope_Male</defName>
+        <label>big stasis box (Boomalope)</label>
+        <statBases>
+            <MarketValue>350</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Boomalope</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Caribou_Female</defName>
+        <label>big stasis box (Caribou)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Caribou</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Caribou_Male</defName>
+        <label>big stasis box (Caribou)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Caribou</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Cow_Female</defName>
+        <label>big stasis box (Cow)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Cow</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Cow_Male</defName>
+        <label>big stasis box (Cow)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Cow</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Deer_Female</defName>
+        <label>big stasis box (Deer)</label>
+        <statBases>
+            <MarketValue>250</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Deer</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Deer_Male</defName>
+        <label>big stasis box (Deer)</label>
+        <statBases>
+            <MarketValue>250</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Deer</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Donkey_Female</defName>
+        <label>big stasis box (Donkey)</label>
+        <statBases>
+            <MarketValue>320</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Donkey</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Donkey_Male</defName>
+        <label>big stasis box (Donkey)</label>
+        <statBases>
+            <MarketValue>320</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Donkey</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Dromedary_Female</defName>
+        <label>big stasis box (Dromedary)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Dromedary</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Dromedary_Male</defName>
+        <label>big stasis box (Dromedary)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Dromedary</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Elephant_Female</defName>
+        <label>big stasis box (Elephant)</label>
+        <statBases>
+            <MarketValue>600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Elephant</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Elephant_Male</defName>
+        <label>big stasis box (Elephant)</label>
+        <statBases>
+            <MarketValue>600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Elephant</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Elk_Female</defName>
+        <label>big stasis box (Elk)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Elk</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Elk_Male</defName>
+        <label>big stasis box (Elk)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Elk</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Horse_Female</defName>
+        <label>big stasis box (Horse)</label>
+        <statBases>
+            <MarketValue>550</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Horse</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Horse_Male</defName>
+        <label>big stasis box (Horse)</label>
+        <statBases>
+            <MarketValue>550</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Horse</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Ibex_Female</defName>
+        <label>big stasis box (Ibex)</label>
+        <statBases>
+            <MarketValue>250</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Ibex</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Ibex_Male</defName>
+        <label>big stasis box (Ibex)</label>
+        <statBases>
+            <MarketValue>250</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Ibex</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Megasloth_Female</defName>
+        <label>big stasis box (Megasloth)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Megasloth</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Megasloth_Male</defName>
+        <label>big stasis box (Megasloth)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Megasloth</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Muffalo_Female</defName>
+        <label>big stasis box (Muffalo)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Muffalo</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Muffalo_Male</defName>
+        <label>big stasis box (Muffalo)</label>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Muffalo</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Rhinoceros_Female</defName>
+        <label>big stasis box (Rhinoceros)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Rhinoceros</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Rhinoceros_Male</defName>
+        <label>big stasis box (Rhinoceros)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Rhinoceros</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Yak_Female</defName>
+        <label>big stasis box (Yak)</label>
+        <statBases>
+            <MarketValue>320</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Yak</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Yak_Male</defName>
+        <label>big stasis box (Yak)</label>
+        <statBases>
+            <MarketValue>320</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Yak</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bear_Grizzly_Female</defName>
+        <label>big stasis box (Bear_Grizzly)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bear_Grizzly</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bear_Grizzly_Male</defName>
+        <label>big stasis box (Grizzly Bear)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bear_Grizzly</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Megaspider_Female</defName>
+        <label>big stasis box (Megaspider)</label>
+        <statBases>
+            <MarketValue>500</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Megaspider</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Megaspider_Male</defName>
+        <label>big stasis box (Megaspider)</label>
+        <statBases>
+            <MarketValue>500</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Megaspider</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bear_Polar_Female</defName>
+        <label>big stasis box (Bear_Polar)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bear_Polar</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Bear_Polar_Male</defName>
+        <label>big stasis box (Polar Bear)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Bear_Polar</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Toxalope_Female</defName>
+        <label>big stasis box (Toxalope)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Toxalope</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Female</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    <ThingDef ParentName="FilledLargeAnimalCategory">
+        <defName>StasisBox_Toxalope_Male</defName>
+        <label>big stasis box (Toxalope)</label>
+        <statBases>
+            <MarketValue>700</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Toxalope</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>Male</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

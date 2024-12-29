@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="FilledMechanoidCategory" Name="FilledUltraHeavyMechCategory" Abstract="true">
+      <description>A de-activated and flat-packed ultra-heavy mechanoid ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
+      <graphicData>
+          <texPath>MechanoidBoxes/UltraHeavyMechanoidBoxes/Filled</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>(1,1)</drawSize>
+      </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledUltraHeavyMechCategory">
+        <defName>StasisBox_Centurion</defName>
+        <label>ultraheavy stasis box (Centurion)</label>
+        <statBases>
+            <MarketValue>1600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Centurion</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+    
+
+    <ThingDef ParentName="FilledUltraHeavyMechCategory">
+        <defName>StasisBox_Diabolus</defName>
+        <label>ultraheavy stasis box (Diabolus)</label>
+        <statBases>
+            <MarketValue>1600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Diabolus</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="FilledUltraHeavyMechCategory">
+        <defName>StasisBox_Warqueen</defName>
+        <label>ultraheavy stasis box (Warqueen)</label>
+        <statBases>
+            <MarketValue>1600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Warqueen</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="FilledUltraHeavyMechCategory">
+        <defName>StasisBox_Apocriton</defName>
+        <label>ultraheavy stasis box (Apocriton)</label>
+        <statBases>
+            <MarketValue>1600</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="StasisBox.CompProperties_BoxPawns">
+                <openable>true</openable>
+                <pawnKindToSpawnWhenOpened>Mech_Apocriton</pawnKindToSpawnWhenOpened>
+                <genderOfPawn>None</genderOfPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
