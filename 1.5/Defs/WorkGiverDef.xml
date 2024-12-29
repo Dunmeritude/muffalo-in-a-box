@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>StasisBox_DoBillsPackingBench</defName>
+    <label>create stasis boxes</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>50</priorityInType>
+    <fixedBillGiverDefs>
+      <li>StasisBox_PackingBench</li>
+    </fixedBillGiverDefs>
+    <verb>create</verb>
+    <gerund>creating things at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>
