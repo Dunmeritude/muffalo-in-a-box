@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- small animal -->
+  <RecipeDef>
+    <defName>StasisBox_CreateSmallAnimalBulk</defName>
+    <label>make small stasis box x4</label>
+    <description>Craft 4 small stasis boxes at once.</description>
+    <jobString>Crafting 4 small stasis boxes.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kibble</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyAnimalSmall>4</StasisBox_EmptyAnimalSmall>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- medium animal -->
+  <RecipeDef>
+    <defName>StasisBox_CreateMediumAnimalBulk</defName>
+    <label>make small stasis box x4</label>
+    <description>Craft 4 medium stasis boxes at once.</description>
+    <jobString>Crafting 4 medium stasis boxes.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kibble</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyAnimalMedium>4</StasisBox_EmptyAnimalMedium>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- big animal -->
+  <RecipeDef>
+    <defName>StasisBox_CreateBigAnimalBulk</defName>
+    <label>craft small stasis box x4</label>
+    <description>Craft 4 big stasis boxes at once.</description>
+    <jobString>Crafting 4 big stasis boxes.</jobString>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kibble</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyAnimalBig>4</StasisBox_EmptyAnimalBig>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- very large animal -->
+  <RecipeDef>
+    <defName>StasisBox_CreateVeryBigAnimalBulk</defName>
+    <label>craft small stasis box x4</label>
+    <description>Craft 4 very large stasis boxes at once.</description>
+    <jobString>Crafting 4 very large stasis boxes.</jobString>
+    <workAmount>4800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kibble</li>
+          </thingDefs>
+        </filter>
+        <count>320</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>320</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyAnimalUltraLarge>4</StasisBox_EmptyAnimalUltraLarge>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+</Defs>

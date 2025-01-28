@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<StasisBox_SelectPackingPawn>Select the pawn that will pack the target.</StasisBox_SelectPackingPawn>
+	<StasisBox_SelectPackedPawn>Select the animal/mechanoid that you want to pack.</StasisBox_SelectPackedPawn>
+	<StasisBox_BoxPawn>Box a pawn</StasisBox_BoxPawn>
+	<StasisBox_OpenBox>Open {0}.</StasisBox_OpenBox>
+	<StasisBox_StasisBoxesStored>Stasis boxes stored:</StasisBox_StasisBoxesStored>
+
+</LanguageData>

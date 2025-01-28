@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- small flatpack -->
+  <RecipeDef>
+    <defName>StasisBox_CreateSmallFlatpackBulk</defName>
+    <label>make light flatpack packages x4</label>
+    <description>Craft 4 ght flatpack packages at once.</description>
+    <jobString>Crafting 4 ght flatpack packages.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyMechLight>4</StasisBox_EmptyMechLight>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- medium flatpack -->
+  <RecipeDef>
+    <defName>StasisBox_CreateMediumFlatpackBulk</defName>
+    <label>make medium flatpack packages x4</label>
+    <description>Craft 4 medium flatpack packages at once.</description>
+    <jobString>Crafting 4 medium flatpack packages.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyMechMedium>4</StasisBox_EmptyMechMedium>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- big flatpack -->
+  <RecipeDef>
+    <defName>StasisBox_CreateBigFlatpackBulk</defName>
+    <label>craft heavy flatpack packages x4</label>
+    <description>Craft 4 heavy flatpack packages at once.</description>
+    <jobString>Crafting 4 heavy flatpack packages.</jobString>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>320</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyMechHeavy>4</StasisBox_EmptyMechHeavy>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+  <!-- very large animal -->
+  <RecipeDef>
+    <defName>StasisBox_CreateVeryBigFlatpackBulk</defName>
+    <label>craft ultraheavy flatpack packages x4</label>
+    <description>Craft 4 ultraheavy flatpack packages at once.</description>
+    <jobString>Crafting 4 ultraheavy flatpack packages.</jobString>
+    <workAmount>4800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>320</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>640</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <StasisBox_EmptyMechUltraheavy>4</StasisBox_EmptyMechUltraheavy>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+</Defs>
