@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="FilledAnimalCategory">
+    <ThingDef ParentName="StatisBoxBase">
         <defName>StasisBox_EmptyAnimalBig</defName>
-        <label>big stasis box</label>
+        <label>large stasis box</label>
         <description>A legally distinct non-spheroid stasis box ready to hold a large animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
         <graphicData>
-          <texPath>AnimalBoxes/BigAnimalBoxes/Empty</texPath>
+          <texPath>StasisBox/AnimalBoxes/BigAnimalBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
-          <drawSize>(1,1)</drawSize>
+          <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
         <costList>
             <Kibble>40</Kibble>
@@ -23,6 +23,9 @@
               <li>StasisBox_PackingBench</li>
             </recipeUsers>
             <researchPrerequisite>Machining</researchPrerequisite>
+            <workAmount>800</workAmount>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
         </recipeMaker>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">

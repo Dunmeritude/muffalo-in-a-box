@@ -36,7 +36,7 @@
           <li Class="CompProperties_Breakdownable"/>
         </comps>
         <graphicData>
-          <texPath>Bench/FabBench_Box</texPath>
+          <texPath>StasisBox/Bench/FabBench_Box</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>(7,4)</drawSize>
@@ -71,6 +71,16 @@
         <researchPrerequisites>
           <li>Machining</li>
         </researchPrerequisites>
+        <recipes>
+          <li>StasisBox_CreateSmallAnimalBulk</li>
+          <li>StasisBox_CreateMediumAnimalBulk</li>
+          <li>StasisBox_CreateBigAnimalBulk</li>
+          <li>StasisBox_CreateVeryBigAnimalBulk</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">StasisBox_CreateSmallFlatpackBulk</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">StasisBox_CreateMediumFlatpackBulk</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">StasisBox_CreateBigFlatpackBulk</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">StasisBox_CreateVeryBigFlatpackBulk</li>
+        </recipes>
     </ThingDef>
     
 </Defs>

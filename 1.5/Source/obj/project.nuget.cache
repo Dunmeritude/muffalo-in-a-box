@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0y0VK3TwNj6H0d4DQXNcIG3oZqUhlkX/dc6Zq//TYr27P3fusHiL4ltf1gPYH91wg8ebvQ8QeHjVjShShb0jpA==",
+  "dgSpecHash": "+rW83ihOO+JU4arFt2dhpXjQUdnzX2t/1yLzlxb/juWCvu/LRu5uhADrmLunhffaymI3VezUvn562+c3b3h9Vg==",
   "success": true,
   "projectFilePath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\AmazonSimulator\\1.5\\Source\\StasisBox.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\David\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4243\\krafs.rimworld.ref.1.5.4243.nupkg.sha512"
+    "C:\\Users\\David\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4297\\krafs.rimworld.ref.1.5.4297.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512"
   ],
   "logs": []
 }

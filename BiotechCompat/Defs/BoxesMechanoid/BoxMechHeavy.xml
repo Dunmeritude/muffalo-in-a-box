@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="FilledMechanoidCategory">
+    <ThingDef ParentName="StatisBoxBase">
         <defName>StasisBox_EmptyMechHeavy</defName>
         <label>heavy flatpack package</label>
         <description>An empty heavy mechanoid crate ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
         <graphicData>
-          <texPath>MechanoidBoxes/HeavyMechanoidBoxes/Empty</texPath>
+          <texPath>StasisBox/MechanoidBoxes/HeavyMechanoidBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
-          <drawSize>(1,1)</drawSize>
+          <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>1200</MarketValue>
@@ -26,6 +26,9 @@
               <li>StasisBox_PackingBench</li>
             </recipeUsers>
             <researchPrerequisite>Machining</researchPrerequisite>
+            <workAmount>800</workAmount>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
         </recipeMaker>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">

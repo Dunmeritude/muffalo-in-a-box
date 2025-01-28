@@ -4,9 +4,9 @@
     <ThingDef ParentName="FilledAnimalCategory" Name="FilledSmallAnimalCategory" Abstract="true">
       <description>A legally distinct non-spheroid stasis box containing a small animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
       <graphicData>
-          <texPath>AnimalBoxes/SmallAnimalBoxes/Filled</texPath>
+          <texPath>StasisBox/AnimalBoxes/SmallAnimalBoxes/Filled</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
-          <drawSize>(1,1)</drawSize>
+          <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
     </ThingDef>
 
@@ -18,6 +18,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Chicken</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -32,6 +33,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Chicken</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -48,6 +50,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Capybara</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -62,6 +65,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Capybara</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -78,6 +82,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Chinchilla</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -92,6 +97,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Chinchilla</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -108,6 +114,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Duck</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -122,6 +129,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Duck</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -138,6 +146,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>GuineaPig</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -152,6 +161,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>GuineaPig</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -168,6 +178,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Hare</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -182,6 +193,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Hare</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -198,6 +210,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Snowhare</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -212,6 +225,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Snowhare</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -228,6 +242,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Squirrel</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -242,6 +257,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Squirrel</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -258,6 +274,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Boomrat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -272,6 +289,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Boomrat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -288,6 +306,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Iguana</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -302,6 +321,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Iguana</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -318,6 +338,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>LabradorRetriever</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -332,6 +353,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>LabradorRetriever</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -348,6 +370,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Megascarab</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -362,6 +385,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Megascarab</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -378,6 +402,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Monkey</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -392,6 +417,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Monkey</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -408,6 +434,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Raccoon</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -422,6 +449,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Raccoon</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -438,6 +466,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Rat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -452,6 +481,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Rat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -468,6 +498,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Tortoise</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -482,6 +513,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Tortoise</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -498,6 +530,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>YorkshireTerrier</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -512,6 +545,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>YorkshireTerrier</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -528,6 +562,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>WasteRat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -542,6 +577,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>WasteRat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -558,6 +594,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Cat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -572,6 +609,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Cat</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -588,6 +626,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Cobra</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -602,6 +641,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Cobra</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -618,6 +658,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Fennec</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -632,6 +673,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Fennec</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -648,6 +690,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Red</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -662,6 +705,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Red</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -678,6 +722,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Husky</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -692,6 +737,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Husky</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -708,6 +754,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Arctic</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Female</genderOfPawn>
@@ -722,6 +769,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Fox_Arctic</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>Male</genderOfPawn>
@@ -738,6 +786,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Barkskin</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -754,6 +803,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Berrymaker</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -770,6 +820,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Carrier</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -785,6 +836,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Clawer</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -801,6 +853,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Gaumaker</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -817,6 +870,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Medicinemaker</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -833,6 +887,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Woodmaker</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -848,6 +903,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyAnimalSmall</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Dryad_Basic</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>

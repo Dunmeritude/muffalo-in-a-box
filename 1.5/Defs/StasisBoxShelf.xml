@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="StorageShelfBase">
+    <ThingDef ParentName="BuildingBase">
         <defName>StasisBox_AnimalBoxShelf</defName>
         <label>animal stasis box shelf</label>
         <description>Storage shelves for animal stasis boxes, they keep the animals alive and well while you prepare to trade or open them at a later time. If the storage shelf becomes depowered, the stasis boxes have a limited time before their kibble reserves run out, and the box will perform an emergency opening sequence; freeing the animal. These boxes are often used by societies with spacer level tech, and are an easy compact way to store animals for trade across planets and solar systems, without constant feeding and maintenance beyond simply powering the stasis field. Without these boxes and storage shelves, trading animals becomes far more costly than its worth in profit for most trade ships.</description>
         <graphicData>
-          <texPath>Shelfs/Shelf_BoxAnimal</texPath>
+          <texPath>StasisBox/Shelfs/BoxAnimalShelf</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>(2,1)</drawSize>
+          <drawSize>(1.84,1.15)</drawSize>
           <shadowData Inherit="false" />
         </graphicData>
+        <minifiedDef>MinifiedThing</minifiedDef>
         <staticSunShadowHeight>0.0</staticSunShadowHeight>
+        <altitudeLayer>Building</altitudeLayer>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+        <designationCategory>Furniture</designationCategory>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <tickerType>Rare</tickerType>
         <costList>
             <Steel>18</Steel>
         </costList>
@@ -36,44 +44,35 @@
             <li>Machining</li>
         </researchPrerequisites>
         <stuffCategories Inherit="false" />
-    </ThingDef>
-
-
-    <ThingDef ParentName="StorageShelfBase">
-        <defName>StasisBox_MechBoxShelf</defName>
-        <label>mechanoid flat pack shelf</label>
-        <description>The storage shelf for flat packed mechanoids, it is an easy way to keep your stored mechanoids organized for when bandwidth, energy, or waste pack storage is in short supply. They require no energy to maintain, being simple metal shelves designed to hold the heavy weight of mechanoids for the long term. These shelves are often used by societies with industrial level tech, and the ruins of old warehouses full of units waiting to be re-activated are a gold mine for treasure hunting rimworlders. These shelves can also be found in the cargo bays of trade ships, offering a way to easily trade mechanoids between planets while negating the energy cost, or the need to have a mechinator on hand to manage the machines.</description>
-        <graphicData>
-          <texPath>Shelfs/Shelf_BoxMech</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>(2,1)</drawSize>
-          <shadowData Inherit="false" />
-        </graphicData>
-        <staticSunShadowHeight>0.0</staticSunShadowHeight>
-        <costList>
-            <Steel>18</Steel>
-        </costList>
-        <statBases>
-          <MaxHitPoints>100</MaxHitPoints> 
-          <Mass>8</Mass>
-          <WorkToBuild>500</WorkToBuild>
-          <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-        </statBases>
-        <size>(2,1)</size>
-        <designationHotKey>Misc12</designationHotKey>
-        <building>
-            <fixedStorageSettings Inherit="false">
-                <filter>
-                    <categories>
-                        <li>StasisBox_FilledMechanoidBoxes</li>
-                    </categories>
-                </filter>
-            </fixedStorageSettings>
-        </building>
-        <researchPrerequisites>
-            <li>Machining</li>
-        </researchPrerequisites>
-        <stuffCategories Inherit="false" />
+        <comps>
+            <li Class="StasisBox.CompProperties_StaticBoxShelf">
+                <maxCapacity>12</maxCapacity>
+                <filledSlotGraphicData>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <texPath>StasisBox/Shelfs/FilledBoxSlot</texPath>
+                    <drawSize>(1.2, 1.2)</drawSize>
+                </filledSlotGraphicData>
+                <offsets>
+                    <li><x>0.44</x><z>0.85</z></li>
+                    <li><x>0.44</x><z>0.64</z></li>
+                    <li><x>0.66</x><z>0.85</z></li>
+                    <li><x>0.66</x><z>0.64</z></li>
+                    <li><x>0.88</x><z>0.85</z></li>
+                    <li><x>0.88</x><z>0.64</z></li>
+                    <li><x>1.1</x><z>0.85</z></li>
+                    <li><x>1.1</x><z>0.64</z></li>
+                    <li><x>1.33</x><z>0.85</z></li>
+                    <li><x>1.33</x><z>0.64</z></li>
+                    <li><x>1.56</x><z>0.85</z></li>
+                    <li><x>1.56</x><z>0.64</z></li>
+                </offsets>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>40</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+        </comps>
     </ThingDef>
 
 </Defs>

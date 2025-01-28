@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef ParentName="FilledAnimalCategory">
+    <ThingDef ParentName="StatisBoxBase">
         <defName>StasisBox_EmptyAnimalMedium</defName>
         <label>medium stasis box</label>
         <description>A legally distinct non-spheroid stasis box ready to hold a medium animal. A good way to preserve your herd when feeding them is not an easily available option, but you have storage space and energy to spare.</description>
         <graphicData>
-          <texPath>AnimalBoxes/MediumAnimalBoxes/Empty</texPath>
+          <texPath>StasisBox/AnimalBoxes/MediumAnimalBoxes/Empty</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
-          <drawSize>(1,1)</drawSize>
+          <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
         <costList>
             <Kibble>20</Kibble>
@@ -23,6 +23,9 @@
               <li>StasisBox_PackingBench</li>
             </recipeUsers>
             <researchPrerequisite>Machining</researchPrerequisite>
+            <workAmount>450</workAmount>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
         </recipeMaker>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
@@ -288,6 +291,21 @@
                             <genderOfPawn>Female</genderOfPawn>
                         </key>
                         <value>StasisBox_Wolf_Timber_Female</value>
+                    </li>
+                    <!-- Wolf_Arctic -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Wolf_Arctic</pawnKindDef>
+                            <genderOfPawn>Male</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Wolf_Arctic_Male</value>
+                    </li>
+                    <li>
+                        <key>
+                            <pawnKindDef>Wolf_Arctic</pawnKindDef>
+                            <genderOfPawn>Female</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Wolf_Arctic_Female</value>
                     </li>
                     <!-- Warg -->
                     <li>

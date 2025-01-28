@@ -4,9 +4,9 @@
     <ThingDef ParentName="FilledMechanoidCategory" Name="FilledUltraHeavyMechCategory" Abstract="true">
       <description>A de-activated and flat-packed ultra-heavy mechanoid ready for easy storage or trade across the planet. A good way to spare your mechinator's bandwidth without dismantling your mechanoids, or leaving them sitting around cluttering up the place.</description>
       <graphicData>
-          <texPath>MechanoidBoxes/UltraHeavyMechanoidBoxes/Filled</texPath>
+          <texPath>StasisBox/MechanoidBoxes/UltraHeavyMechanoidBoxes/Filled</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
-          <drawSize>(1,1)</drawSize>
+          <drawSize>(1.5,1.5)</drawSize>
       </graphicData>
     </ThingDef>
 
@@ -18,6 +18,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyMechUltraheavy</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Mech_Centurion</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -34,6 +35,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyMechUltraheavy</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Mech_Diabolus</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -50,6 +52,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyMechUltraheavy</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Mech_Warqueen</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>
@@ -65,6 +68,7 @@
         </statBases>
         <comps>
             <li Class="StasisBox.CompProperties_BoxPawns">
+                <emptyBox>StasisBox_EmptyMechUltraheavy</emptyBox>
                 <openable>true</openable>
                 <pawnKindToSpawnWhenOpened>Mech_Apocriton</pawnKindToSpawnWhenOpened>
                 <genderOfPawn>None</genderOfPawn>

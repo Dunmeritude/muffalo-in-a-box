@@ -4,7 +4,20 @@
     <JobDef>
         <defName>StasisBox_BoxPawn</defName>
         <driverClass>StasisBox.JobDriver_BoxPawn</driverClass>
-        <reportString>putting targetA inside a stasis box.</reportString>
+        <reportString>putting targetA inside targetB.</reportString>
+    </JobDef>
+
+    <JobDef>
+        <defName>StasisBox_OpenStasisBox</defName>
+        <driverClass>StasisBox.JobDriver_OpenStasisBox</driverClass>
+        <reportString>opening targetA.</reportString>
+    </JobDef>
+
+    <JobDef>
+        <defName>StasisBox_CarryBoxToShelf</defName>
+        <driverClass>StasisBox.JobDriver_HaulToStasisBoxShelf</driverClass>
+        <reportString>hauling TargetA to TargetB.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
     </JobDef>
 
 </Defs>
