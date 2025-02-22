@@ -11,6 +11,7 @@ namespace StasisBox
 		const float eastXoffset = -1.16f;
 		const float eastZoffset = -0.245f;
 
+
 		[Unsaved(false)]
 		private List<Thing> tmpBoxes = [];
 		public ThingOwner innerContainer;
@@ -18,10 +19,13 @@ namespace StasisBox
 		public bool autoLoad = true;
 		private static readonly CachedTexture EjectTex = new("UI/Gizmos/EjectAll");
 
+
+		// only used while debugging
 		[TweakValue("StasisBoxShelfXOffset", -2f, 2f)]
 		private static float xOffset = 0f;
 		[TweakValue("StasisBoxShelfYOffset", -1f, 1f)]
 		private static float yOffset = 0f;
+
 
 		public CompProperties_StaticBoxShelf Props => (CompProperties_StaticBoxShelf)props;
 		public bool StorageTabVisible => true;
@@ -59,47 +63,57 @@ namespace StasisBox
 		public override void PostDraw()
 		{
 			base.PostDraw();
+			float altitude = Altitudes.AltitudeFor(AltitudeLayer.BuildingOnTop);
 
 			for (int i = 0; i < innerContainer.Count; i++)
 			{
-				if (parent.Rotation == Rot4.North)
+				switch (parent.Rotation.AsInt)
 				{
-					Vector3 drawPos = parent.Position.ToVector3().Yto0();
-					drawPos.y = Altitudes.AltitudeFor(AltitudeLayer.BuildingOnTop);
-					drawPos.x += Props.offsets[i].x;
-					drawPos.z += Props.offsets[i].z;
+					case Rot4.NorthInt:
+						{
+							Vector3 drawPos = parent.Position.ToVector3().Yto0();
+							drawPos.y = altitude;
+							drawPos.x += Props.offsets[i].x;
+							drawPos.z += Props.offsets[i].z;
 
-					Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
-				}
-				else if (parent.Rotation == Rot4.South)
-				{
-					Vector3 drawPos = parent.Position.ToVector3().Yto0();
-					drawPos.y = Altitudes.AltitudeFor(AltitudeLayer.BuildingOnTop);
-					drawPos.x -= Props.offsets[i].x - southXoffset + xOffset;
-					drawPos.z += Props.offsets[i].z + yOffset;
+							Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
+						}
+						break;
 
-					Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
-				}
-				else if (parent.Rotation == Rot4.West)
-				{
-					Vector3 drawPos = parent.Position.ToVector3().Yto0();
-					drawPos.y = Altitudes.AltitudeFor(AltitudeLayer.BuildingOnTop);
-					drawPos.x += Props.offsets[i].z + westZoffset + yOffset;
-					drawPos.z += Props.offsets[i].x + westXoffset + xOffset;
+					case Rot4.SouthInt:
+						{
+							Vector3 drawPos = parent.Position.ToVector3().Yto0();
+							drawPos.y = altitude;
+							drawPos.x -= Props.offsets[i].x - southXoffset + xOffset;
+							drawPos.z += Props.offsets[i].z + yOffset;
 
-					Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
-				}
-				else if (parent.Rotation == Rot4.East)
-				{
-					Vector3 drawPos = parent.Position.ToVector3().Yto0();
-					drawPos.y = Altitudes.AltitudeFor(AltitudeLayer.BuildingOnTop);
-					drawPos.x += Props.offsets[i].z + eastZoffset + yOffset;
-					drawPos.z -= Props.offsets[i].x + eastXoffset + xOffset;
+							Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
+						}
+						break;
 
-					Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
+					case Rot4.WestInt:
+						{
+							Vector3 drawPos = parent.Position.ToVector3().Yto0();
+							drawPos.y = altitude;
+							drawPos.x += Props.offsets[i].z + westZoffset + yOffset;
+							drawPos.z += Props.offsets[i].x + westXoffset + xOffset;
+
+							Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
+						}
+						break;
+
+					default: // East or fallback?
+						{
+							Vector3 drawPos = parent.Position.ToVector3().Yto0();
+							drawPos.y = altitude;
+							drawPos.x += Props.offsets[i].z + eastZoffset + yOffset;
+							drawPos.z -= Props.offsets[i].x + eastXoffset + xOffset;
+
+							Props.filledSlotGraphicData.Graphic.Draw(drawPos, Rot4.North, parent);
+						}
+						break;
 				}
 			}
-
 		}
 
 
@@ -128,10 +142,6 @@ namespace StasisBox
 		public override void PostDeSpawn(Map map)
 		{
 			EjectContents(map);
-			for (int i = 0; i < leftToLoad.Count; i++)
-			{
-				((Genepack)leftToLoad[i]).targetContainer = null;
-			}
 			leftToLoad.Clear();
 		}
 

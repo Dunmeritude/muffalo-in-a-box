@@ -24,7 +24,7 @@ namespace StasisBox
 		{
 			get
 			{
-				IThingHolder parentHolder = base.ParentHolder;
+				IThingHolder parentHolder = ParentHolder;
 				if (parentHolder == null || parentHolder is not Comp_StaticBoxShelf result)
 				{
 					return null;

@@ -31,6 +31,7 @@
       <tickerType>Rare</tickerType>
       <canDeteriorateUnspawned>true</canDeteriorateUnspawned>
       <deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
+      <stackLimit>1</stackLimit>
     </ThingDef>
 
     <ThingDef ParentName="StatisBoxBase" Name="FilledMechanoidCategory" Abstract="true">
