@@ -18,7 +18,7 @@
 			if (shelf != null && pawn.CanReserve(t))
 			{
 				Job job = JobMaker.MakeJob(DefOfs.StasisBox_CarryBoxToShelf, t, shelf);
-				job.count = t.stackCount;
+				job.count = 1;
 				return job;
 			}
 			return null;
