@@ -39,7 +39,7 @@
   <!-- medium animal -->
   <RecipeDef>
     <defName>StasisBox_CreateMediumAnimalBulk</defName>
-    <label>make small stasis box x4</label>
+    <label>make medium stasis box x4</label>
     <description>Craft 4 medium stasis boxes at once.</description>
     <jobString>Crafting 4 medium stasis boxes.</jobString>
     <workAmount>1800</workAmount>
@@ -87,12 +87,12 @@
     <displayPriority>110</displayPriority>
   </RecipeDef>
 
-  <!-- big animal -->
+  <!-- large animal -->
   <RecipeDef>
     <defName>StasisBox_CreateBigAnimalBulk</defName>
-    <label>craft small stasis box x4</label>
-    <description>Craft 4 big stasis boxes at once.</description>
-    <jobString>Crafting 4 big stasis boxes.</jobString>
+    <label>craft large stasis box x4</label>
+    <description>Craft 4 large stasis boxes at once.</description>
+    <jobString>Crafting 4 large stasis boxes.</jobString>
     <workAmount>3200</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>
@@ -138,12 +138,12 @@
     <displayPriority>110</displayPriority>
   </RecipeDef>
 
-  <!-- very large animal -->
+  <!-- huge animal -->
   <RecipeDef>
     <defName>StasisBox_CreateVeryBigAnimalBulk</defName>
-    <label>craft small stasis box x4</label>
-    <description>Craft 4 very large stasis boxes at once.</description>
-    <jobString>Crafting 4 very large stasis boxes.</jobString>
+    <label>craft huge stasis box x4</label>
+    <description>Craft 4 huge stasis boxes at once.</description>
+    <jobString>Crafting 4 huge stasis boxes.</jobString>
     <workAmount>4800</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Smith</effectWorking>

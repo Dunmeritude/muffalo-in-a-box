@@ -247,6 +247,36 @@
                         </key>
                         <value>StasisBox_Cougar_Female</value>
                     </li>
+				    <!-- Labrador retriever -->
+                    <li>
+                        <key>
+                            <pawnKindDef>LabradorRetriever</pawnKindDef>
+                            <genderOfPawn>Male</genderOfPawn>
+                        </key>
+                        <value>StasisBox_LabradorRetriever_Male</value>
+                    </li>
+                    <li>
+                        <key>
+                            <pawnKindDef>LabradorRetriever</pawnKindDef>
+                            <genderOfPawn>Female</genderOfPawn>
+                        </key>
+                        <value>StasisBox_LabradorRetriever_Female</value>
+                    </li>
+				    <!-- Husky -->
+                    <li>
+                        <key>
+                            <pawnKindDef>Husky</pawnKindDef>
+                            <genderOfPawn>Male</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Husky_Male</value>
+                    </li>
+                    <li>
+                        <key>
+                            <pawnKindDef>Husky</pawnKindDef>
+                            <genderOfPawn>Female</genderOfPawn>
+                        </key>
+                        <value>StasisBox_Husky_Female</value>
+                    </li>
                     <!-- Lynx -->
                     <li>
                         <key>
