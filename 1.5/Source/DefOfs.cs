@@ -14,6 +14,7 @@
 		public static JobDef StasisBox_CarryBoxToShelf;
 		public static SoundDef CrateOpeningStarted;
 		public static LifeStageDef AnimalAdult;
+		public static LifeStageDef MechanoidFullyFormed;
 		public static ThingDef StasisBox_AnimalBoxShelf;
 	}
 }

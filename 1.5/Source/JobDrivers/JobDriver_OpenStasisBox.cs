@@ -30,8 +30,25 @@
 					Thing emptyBox = ThingMaker.MakeThing(CompBoxPawns.Props.emptyBox);
 					GenSpawn.Spawn(emptyBox, TargetA.Thing.Position, TargetA.Thing.Map);
 
-					float minAdultAge = CompBoxPawns.Props.pawnKindToSpawnWhenOpened.race.race.lifeStageAges.Find(stage => stage.def == DefOfs.AnimalAdult).minAge;
+					float minAdultAge = float.NegativeInfinity;
 
+					try
+					{
+						if (CompBoxPawns.Props.pawnKindToSpawnWhenOpened.RaceProps.IsMechanoid)
+						{
+							minAdultAge = CompBoxPawns.Props.pawnKindToSpawnWhenOpened.race.race.lifeStageAges.Find(stage => stage.def == DefOfs.MechanoidFullyFormed).minAge;
+						}
+						else
+						{
+							minAdultAge = CompBoxPawns.Props.pawnKindToSpawnWhenOpened.race.race.lifeStageAges.Find(stage => stage.def == DefOfs.AnimalAdult).minAge;
+						}
+					}
+					catch
+					{
+						minAdultAge = 0;
+					}
+					
+					
 					PawnGenerationRequest request = new(
 						CompBoxPawns.Props.pawnKindToSpawnWhenOpened,
 						pawn.Faction,
