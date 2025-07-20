@@ -37,7 +37,7 @@
                     <canTargetMechs>true</canTargetMechs>
                     <canTargetAnimals>false</canTargetAnimals>
                     <canTargetBuildings>false</canTargetBuildings>
-                    <canTargetMutants>false</canTargetMutants>
+                    <canTargetSubhumans>false</canTargetSubhumans>
                     <canTargetBloodfeeders>false</canTargetBloodfeeders>
                 </targetingParams>
                 <filledBoxMapping>

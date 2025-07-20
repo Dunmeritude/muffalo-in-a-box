@@ -9,16 +9,20 @@
 	<description>Need a way to easily store mechanoids and animals when they aren't needed? Want to trade them over multiplayer mods to other players? This is the mod for you!</description>
 
 	<supportedVersions>
-		<li>1.5</li> <!-- Supported versions. Place rimworld versions in separate li nodes here -->
+		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 
-	<modDependencies>
-	  <li>
-	    <packageId>brrainz.harmony</packageId>
-	    <displayName>Harmony</displayName>
-	    <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-	  </li>
-	</modDependencies>
+
+	<modDependenciesByVersion>
+		<v1.5>
+			<li>
+				<packageId>brrainz.harmony</packageId>
+				<displayName>Harmony</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			</li>
+		</v1.5>
+	</modDependenciesByVersion>
 
 	<loadAfter>
   		<li>brrainz.harmony</li>
